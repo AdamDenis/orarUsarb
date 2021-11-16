@@ -1,6 +1,63 @@
+* {
+    font-family: 'Zen Antique Soft', serif;
+}
+
+#orar {
+    display: grid;
+    grid-template-rows: 60px 60px 100px 105px 45px 45px 300px 50px;
+    align-items: center;
+}
+
+#orar header {
+    font-size: 20px;
+    height: 58px;
+    width: 450px;
+    color: #666666;
+    background-color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#grup {
+    height: 35px;
+    width: 102px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#prof {
+    height: 35px;
+    width: 120px;
+    background-color: #25975A;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#aul {
+    height: 35px;
+    width: 90px;
+    background-color: #25975A;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: 102px 120px 90px;
+    gap: 50px;
+    text-align: center;
+}
+
 #find {
-    width: 40px;
-    height: 40px;
+    width: 46px;
+    height: 46px;
 }
 
 #find-main {
@@ -91,6 +148,7 @@
 .math {
     background-color: lightpink;
     color: white;
+    font-size: 14px;
 }
 
 .history {
@@ -98,4 +156,5 @@
     grid-template-columns: repeat(4, 150px);
     align-items: center;
     text-align: center;
+    font-size: 14px;
 }
