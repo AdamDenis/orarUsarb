@@ -4,6 +4,98 @@
 }
 
 #find-main {
-    width: 150px;
+    width: 400px;
     height: 40px;
+}
+
+.input {
+    display: grid;
+    grid-template-columns: 40px 400px;
+}
+
+.list {
+    height: 100px;
+    max-height: 100px;
+    width: 430px;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    overflow-y: scroll;
+}
+
+.list li {
+    list-style: none;
+    border-bottom: 1px solid #b5b0b0;
+}
+
+.calendar {
+    display: grid;
+    grid-template-columns: 109px 45px 45px 45px 45px 45px 45px 45px;
+    grid-template-rows: repeat(8, 25px);
+}
+
+.day {
+    width: 107px;
+    height: 23px;
+    background-color: lightseagreen;
+    color: white;
+    border: 1px solid white;
+    margin: opx;
+}
+
+.lesson {
+    width: 43px;
+    height: 23px;
+    background-color: lightseagreen;
+    color: white;
+    border: 1px solid white;
+    margin: opx;
+}
+
+.tablelesson {
+    width: 43px;
+    height: 23px;
+    border: 1px solid grey;
+}
+
+.calendar p {
+    text-align: center;
+    padding-top: 3px;
+}
+
+.bp {
+    background-color: darkgreen;
+    color: white;
+}
+
+.sd {
+    background-color: limegreen;
+    color: white;
+}
+
+.ag {
+    background-color: brown;
+    color: white;
+}
+
+.en {
+    background-color: darkolivegreen;
+    color: white;
+}
+
+.ppw {
+    background-color: #6ceb90;
+    color: white;
+}
+
+.math {
+    background-color: lightpink;
+    color: white;
+}
+
+.history {
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    align-items: center;
+    text-align: center;
 }
